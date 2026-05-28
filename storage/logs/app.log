@@ -1557,3 +1557,23 @@ Trace:
 #3 C:\wamp64\www\Incident\public\index.php(429): App\Controllers\AuthController->loginPost()
 #4 {main}
 
+[2026-05-28 08:32:41] POST /Incident/auth/login
+Message: Unable to connect to the database.
+File: C:\wamp64\www\Incident\config\DB.php:179
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(15): App\Config\DB::getPDO()
+#1 C:\wamp64\www\Incident\app\Services\AuditService.php(16): App\Models\AuditLog->__construct()
+#2 C:\wamp64\www\Incident\app\Controllers\AuthController.php(228): App\Services\AuditService->__construct()
+#3 C:\wamp64\www\Incident\public\index.php(429): App\Controllers\AuthController->loginPost()
+#4 {main}
+
+[2026-05-28 08:51:36] POST /Incident/auth/login
+Message: Unable to connect to the database.
+File: C:\wamp64\www\Incident\config\DB.php:179
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(15): App\Config\DB::getPDO()
+#1 C:\wamp64\www\Incident\app\Services\AuditService.php(16): App\Models\AuditLog->__construct()
+#2 C:\wamp64\www\Incident\app\Controllers\AuthController.php(228): App\Services\AuditService->__construct()
+#3 C:\wamp64\www\Incident\public\index.php(429): App\Controllers\AuthController->loginPost()
+#4 {main}
+
