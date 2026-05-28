@@ -1,0 +1,18 @@
+RewriteEngine On
+
+# If the request already targets something inside public/ directly, skip
+RewriteCond %{REQUEST_URI} ^/incident/public/ [NC]
+RewriteRule ^ - [L]
+
+# Serve static assets from the public directory if they exist there
+RewriteRule ^(css|js|images|fonts|vendor|assets)/(.*)$ public/$1/$2 [L]
+
+# Rewrite everything else into public/index.php
+# This means http://localhost/incident/  → public/index.php
+#            http://localhost/incident/dashboard → public/index.php (with /dashboard uri)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ public/index.php [QSA,L]
+
+# If the root URL hits a directory (e.g. /incident/ with no path), send to public/index.php
+RewriteRule ^$ public/index.php [QSA,L]

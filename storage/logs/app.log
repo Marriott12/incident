@@ -1,0 +1,1559 @@
+[2026-05-20 08:17:59] GET /Incident/analytics
+Message: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in where clause is ambiguous
+File: C:\wamp64\www\Incident\app\Models\AuditLog.php:50
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(50): PDO->prepare('SELECT a.*, u.n...')
+#1 C:\wamp64\www\Incident\app\Controllers\AnalyticsController.php(42): App\Models\AuditLog->getRecentActivity(15, 30)
+#2 C:\wamp64\www\Incident\public\index.php(579): App\Controllers\AnalyticsController->index()
+#3 {main}
+
+[2026-05-20 08:18:52] GET /Incident/analytics
+Message: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in where clause is ambiguous
+File: C:\wamp64\www\Incident\app\Models\AuditLog.php:50
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(50): PDO->prepare('SELECT a.*, u.n...')
+#1 C:\wamp64\www\Incident\app\Controllers\AnalyticsController.php(42): App\Models\AuditLog->getRecentActivity(15, 30)
+#2 C:\wamp64\www\Incident\public\index.php(579): App\Controllers\AnalyticsController->index()
+#3 {main}
+
+[2026-05-20 10:09:42] GET /Incident/analytics
+Message: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in where clause is ambiguous
+File: C:\wamp64\www\Incident\app\Models\AuditLog.php:50
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(50): PDO->prepare('SELECT a.*, u.n...')
+#1 C:\wamp64\www\Incident\app\Controllers\AnalyticsController.php(42): App\Models\AuditLog->getRecentActivity(15, 30)
+#2 C:\wamp64\www\Incident\public\index.php(579): App\Controllers\AnalyticsController->index()
+#3 {main}
+
+[2026-05-21 09:10:16] GET /Incident/analytics
+Message: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in where clause is ambiguous
+File: C:\wamp64\www\Incident\app\Models\AuditLog.php:50
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(50): PDO->prepare('SELECT a.*, u.n...')
+#1 C:\wamp64\www\Incident\app\Controllers\AnalyticsController.php(42): App\Models\AuditLog->getRecentActivity(15, 30)
+#2 C:\wamp64\www\Incident\public\index.php(579): App\Controllers\AnalyticsController->index()
+#3 {main}
+
+[2026-05-21 10:07:13] POST /Incident/incidents/store
+Message: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'reliability' in 'field list'
+File: C:\wamp64\www\Incident\app\Models\Incident.php:51
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\Incident.php(51): PDO->prepare('INSERT INTO inc...')
+#1 C:\wamp64\www\Incident\app\Controllers\IncidentController.php(88): App\Models\Incident->create(Array)
+#2 C:\wamp64\www\Incident\public\index.php(438): App\Controllers\IncidentController->store()
+#3 {main}
+
+[2026-05-21 10:13:21] POST /Incident/incidents/store
+Message: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'reliability' in 'field list'
+File: C:\wamp64\www\Incident\app\Models\Incident.php:51
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\Incident.php(51): PDO->prepare('INSERT INTO inc...')
+#1 C:\wamp64\www\Incident\app\Controllers\IncidentController.php(88): App\Models\Incident->create(Array)
+#2 C:\wamp64\www\Incident\public\index.php(438): App\Controllers\IncidentController->store()
+#3 {main}
+
+[2026-05-21 10:16:40] POST /Incident/incidents/store
+Message: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'reliability' in 'field list'
+File: C:\wamp64\www\Incident\app\Models\Incident.php:48
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\Incident.php(48): PDO->prepare('INSERT INTO inc...')
+#1 C:\wamp64\www\Incident\app\Controllers\IncidentController.php(89): App\Models\Incident->create(Array)
+#2 C:\wamp64\www\Incident\public\index.php(438): App\Controllers\IncidentController->store()
+#3 {main}
+
+[2026-05-21 13:47:35] GET /Incident/analytics
+Message: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in where clause is ambiguous
+File: C:\wamp64\www\Incident\app\Models\AuditLog.php:50
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(50): PDO->prepare('SELECT a.*, u.n...')
+#1 C:\wamp64\www\Incident\app\Controllers\AnalyticsController.php(42): App\Models\AuditLog->getRecentActivity(15, 30)
+#2 C:\wamp64\www\Incident\public\index.php(599): App\Controllers\AnalyticsController->index()
+#3 {main}
+
+[2026-05-21 15:11:26] GET /Incident/analytics
+Message: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in where clause is ambiguous
+File: C:\wamp64\www\Incident\app\Models\AuditLog.php:50
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(50): PDO->prepare('SELECT a.*, u.n...')
+#1 C:\wamp64\www\Incident\app\Controllers\AnalyticsController.php(42): App\Models\AuditLog->getRecentActivity(15, 30)
+#2 C:\wamp64\www\Incident\public\index.php(599): App\Controllers\AnalyticsController->index()
+#3 {main}
+
+[2026-05-26 08:44:38] POST /Incident/auth/login
+Message: Unable to connect to the database.
+File: C:\wamp64\www\Incident\config\DB.php:179
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(15): App\Config\DB::getPDO()
+#1 C:\wamp64\www\Incident\app\Services\AuditService.php(16): App\Models\AuditLog->__construct()
+#2 C:\wamp64\www\Incident\app\Controllers\AuthController.php(228): App\Services\AuditService->__construct()
+#3 C:\wamp64\www\Incident\public\index.php(429): App\Controllers\AuthController->loginPost()
+#4 {main}
+
+[2026-05-26 08:45:08] POST /Incident/auth/login
+Message: Unable to connect to the database.
+File: C:\wamp64\www\Incident\config\DB.php:179
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(15): App\Config\DB::getPDO()
+#1 C:\wamp64\www\Incident\app\Services\AuditService.php(16): App\Models\AuditLog->__construct()
+#2 C:\wamp64\www\Incident\app\Controllers\AuthController.php(228): App\Services\AuditService->__construct()
+#3 C:\wamp64\www\Incident\public\index.php(429): App\Controllers\AuthController->loginPost()
+#4 {main}
+
+[2026-05-26 08:48:31] POST /Incident/auth/login
+Message: Unable to connect to the database.
+File: C:\wamp64\www\Incident\config\DB.php:179
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(15): App\Config\DB::getPDO()
+#1 C:\wamp64\www\Incident\app\Services\AuditService.php(16): App\Models\AuditLog->__construct()
+#2 C:\wamp64\www\Incident\app\Controllers\AuthController.php(228): App\Services\AuditService->__construct()
+#3 C:\wamp64\www\Incident\public\index.php(429): App\Controllers\AuthController->loginPost()
+#4 {main}
+
+[2026-05-26 09:00:23] GET /Incident/analytics
+Message: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in where clause is ambiguous
+File: C:\wamp64\www\Incident\app\Models\AuditLog.php:50
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(50): PDO->prepare('SELECT a.*, u.n...')
+#1 C:\wamp64\www\Incident\app\Controllers\AnalyticsController.php(42): App\Models\AuditLog->getRecentActivity(15, 30)
+#2 C:\wamp64\www\Incident\public\index.php(599): App\Controllers\AnalyticsController->index()
+#3 {main}
+
+[2026-05-26 09:22:52] GET /Incident/analytics
+Message: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in where clause is ambiguous
+File: C:\wamp64\www\Incident\app\Models\AuditLog.php:50
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(50): PDO->prepare('SELECT a.*, u.n...')
+#1 C:\wamp64\www\Incident\app\Controllers\AnalyticsController.php(42): App\Models\AuditLog->getRecentActivity(15, 30)
+#2 C:\wamp64\www\Incident\public\index.php(599): App\Controllers\AnalyticsController->index()
+#3 {main}
+
+[2026-05-26 09:48:06] GET /Incident/analytics
+Message: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in where clause is ambiguous
+File: C:\wamp64\www\Incident\app\Models\AuditLog.php:50
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(50): PDO->prepare('SELECT a.*, u.n...')
+#1 C:\wamp64\www\Incident\app\Controllers\AnalyticsController.php(42): App\Models\AuditLog->getRecentActivity(15, 30)
+#2 C:\wamp64\www\Incident\public\index.php(599): App\Controllers\AnalyticsController->index()
+#3 {main}
+
+[2026-05-26 14:37:16] GET /Incident/analytics
+Message: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in where clause is ambiguous
+File: C:\wamp64\www\Incident\app\Models\AuditLog.php:50
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(50): PDO->prepare('SELECT a.*, u.n...')
+#1 C:\wamp64\www\Incident\app\Controllers\AnalyticsController.php(42): App\Models\AuditLog->getRecentActivity(15, 30)
+#2 C:\wamp64\www\Incident\public\index.php(599): App\Controllers\AnalyticsController->index()
+#3 {main}
+
+[2026-05-27 07:30:38] POST /Incident/auth/login
+Message: Unable to connect to the database.
+File: C:\wamp64\www\Incident\config\DB.php:179
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(15): App\Config\DB::getPDO()
+#1 C:\wamp64\www\Incident\app\Services\AuditService.php(16): App\Models\AuditLog->__construct()
+#2 C:\wamp64\www\Incident\app\Controllers\AuthController.php(228): App\Services\AuditService->__construct()
+#3 C:\wamp64\www\Incident\public\index.php(429): App\Controllers\AuthController->loginPost()
+#4 {main}
+
+[2026-05-27 07:31:21] POST /Incident/auth/login
+Message: Unable to connect to the database.
+File: C:\wamp64\www\Incident\config\DB.php:179
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(15): App\Config\DB::getPDO()
+#1 C:\wamp64\www\Incident\app\Services\AuditService.php(16): App\Models\AuditLog->__construct()
+#2 C:\wamp64\www\Incident\app\Controllers\AuthController.php(228): App\Services\AuditService->__construct()
+#3 C:\wamp64\www\Incident\public\index.php(429): App\Controllers\AuthController->loginPost()
+#4 {main}
+
+[2026-05-27 07:31:44] POST /Incident/auth/login
+Message: Unable to connect to the database.
+File: C:\wamp64\www\Incident\config\DB.php:179
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(15): App\Config\DB::getPDO()
+#1 C:\wamp64\www\Incident\app\Services\AuditService.php(16): App\Models\AuditLog->__construct()
+#2 C:\wamp64\www\Incident\app\Controllers\AuthController.php(228): App\Services\AuditService->__construct()
+#3 C:\wamp64\www\Incident\public\index.php(429): App\Controllers\AuthController->loginPost()
+#4 {main}
+
+[2026-05-27 07:34:41] POST /Incident/auth/login
+Message: Unable to connect to the database.
+File: C:\wamp64\www\Incident\config\DB.php:179
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(15): App\Config\DB::getPDO()
+#1 C:\wamp64\www\Incident\app\Services\AuditService.php(16): App\Models\AuditLog->__construct()
+#2 C:\wamp64\www\Incident\app\Controllers\AuthController.php(228): App\Services\AuditService->__construct()
+#3 C:\wamp64\www\Incident\public\index.php(429): App\Controllers\AuthController->loginPost()
+#4 {main}
+
+[2026-05-27 08:20:08] GET /Incident/incidents/create
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'incident.incidents' doesn't exist
+File: C:\wamp64\www\Incident\app\Models\Incident.php:35
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\Incident.php(35): PDO->prepare('SELECT incident...')
+#1 C:\wamp64\www\Incident\app\Controllers\IncidentController.php(39): App\Models\Incident->generateIncidentNumber()
+#2 C:\wamp64\www\Incident\public\index.php(453): App\Controllers\IncidentController->create()
+#3 {main}
+
+[2026-05-27 08:20:17] GET /Incident/dashboard
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'incident.incidents' doesn't exist
+File: C:\wamp64\www\Incident\app\Models\Incident.php:124
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\Incident.php(124): PDO->prepare('SELECT * FROM i...')
+#1 C:\wamp64\www\Incident\app\Controllers\HomeController.php(16): App\Models\Incident->all(100)
+#2 C:\wamp64\www\Incident\public\index.php(380): App\Controllers\HomeController->index()
+#3 {main}
+
+[2026-05-27 08:24:58] GET /Incident/analytics
+Message: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in where clause is ambiguous
+File: C:\wamp64\www\Incident\app\Models\AuditLog.php:50
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(50): PDO->prepare('SELECT a.*, u.n...')
+#1 C:\wamp64\www\Incident\app\Controllers\AnalyticsController.php(42): App\Models\AuditLog->getRecentActivity(15, 30)
+#2 C:\wamp64\www\Incident\public\index.php(599): App\Controllers\AnalyticsController->index()
+#3 {main}
+
+[2026-05-27 10:19:32] POST /Incident/api/incidents/save-draft
+Message: syntax error, unexpected variable "$existingByNumber", expecting "function"
+File: C:\wamp64\www\Incident\app\Controllers\IncidentController.php:47
+Trace:
+#0 C:\wamp64\www\Incident\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\wamp64\\www\\I...')
+#1 C:\wamp64\www\Incident\public\index.php(510): Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 {main}
+
+[2026-05-27 10:20:02] POST /Incident/api/incidents/save-draft
+Message: syntax error, unexpected variable "$existingByNumber", expecting "function"
+File: C:\wamp64\www\Incident\app\Controllers\IncidentController.php:47
+Trace:
+#0 C:\wamp64\www\Incident\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\wamp64\\www\\I...')
+#1 C:\wamp64\www\Incident\public\index.php(510): Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 {main}
+
+[2026-05-27 10:20:35] POST /Incident/api/incidents/save-draft
+Message: syntax error, unexpected variable "$existingByNumber", expecting "function"
+File: C:\wamp64\www\Incident\app\Controllers\IncidentController.php:47
+Trace:
+#0 C:\wamp64\www\Incident\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\wamp64\\www\\I...')
+#1 C:\wamp64\www\Incident\public\index.php(510): Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 {main}
+
+[2026-05-27 10:21:05] POST /Incident/api/incidents/save-draft
+Message: syntax error, unexpected variable "$existingByNumber", expecting "function"
+File: C:\wamp64\www\Incident\app\Controllers\IncidentController.php:47
+Trace:
+#0 C:\wamp64\www\Incident\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\wamp64\\www\\I...')
+#1 C:\wamp64\www\Incident\public\index.php(510): Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 {main}
+
+[2026-05-27 10:21:38] POST /Incident/api/incidents/save-draft
+Message: syntax error, unexpected variable "$existingByNumber", expecting "function"
+File: C:\wamp64\www\Incident\app\Controllers\IncidentController.php:47
+Trace:
+#0 C:\wamp64\www\Incident\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\wamp64\\www\\I...')
+#1 C:\wamp64\www\Incident\public\index.php(510): Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 {main}
+
+[2026-05-27 10:22:09] POST /Incident/api/incidents/save-draft
+Message: syntax error, unexpected variable "$existingByNumber", expecting "function"
+File: C:\wamp64\www\Incident\app\Controllers\IncidentController.php:47
+Trace:
+#0 C:\wamp64\www\Incident\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\wamp64\\www\\I...')
+#1 C:\wamp64\www\Incident\public\index.php(510): Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 {main}
+
+[2026-05-27 10:22:34] POST /Incident/incidents/store
+Message: syntax error, unexpected variable "$existingByNumber", expecting "function"
+File: C:\wamp64\www\Incident\app\Controllers\IncidentController.php:47
+Trace:
+#0 C:\wamp64\www\Incident\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\wamp64\\www\\I...')
+#1 C:\wamp64\www\Incident\public\index.php(458): Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 {main}
+
+[2026-05-27 10:23:56] POST /Incident/incidents/store
+Message: syntax error, unexpected variable "$existingByNumber", expecting "function"
+File: C:\wamp64\www\Incident\app\Controllers\IncidentController.php:47
+Trace:
+#0 C:\wamp64\www\Incident\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\wamp64\\www\\I...')
+#1 C:\wamp64\www\Incident\public\index.php(458): Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 {main}
+
+[2026-05-27 10:24:36] POST /Incident/incidents/store
+Message: syntax error, unexpected variable "$existingByNumber", expecting "function"
+File: C:\wamp64\www\Incident\app\Controllers\IncidentController.php:47
+Trace:
+#0 C:\wamp64\www\Incident\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\wamp64\\www\\I...')
+#1 C:\wamp64\www\Incident\public\index.php(458): Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 {main}
+
+[2026-05-27 11:02:45] POST /Incident/incidents/store
+Message: syntax error, unexpected variable "$existingByNumber", expecting "function"
+File: C:\wamp64\www\Incident\app\Controllers\IncidentController.php:47
+Trace:
+#0 C:\wamp64\www\Incident\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\wamp64\\www\\I...')
+#1 C:\wamp64\www\Incident\public\index.php(458): Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 {main}
+
+[2026-05-27 11:02:56] GET /Incident/incidents/create
+Message: syntax error, unexpected variable "$existingByNumber", expecting "function"
+File: C:\wamp64\www\Incident\app\Controllers\IncidentController.php:47
+Trace:
+#0 C:\wamp64\www\Incident\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\wamp64\\www\\I...')
+#1 C:\wamp64\www\Incident\public\index.php(453): Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 {main}
+
+[2026-05-27 11:03:01] GET /Incident/incidents
+Message: syntax error, unexpected variable "$existingByNumber", expecting "function"
+File: C:\wamp64\www\Incident\app\Controllers\IncidentController.php:47
+Trace:
+#0 C:\wamp64\www\Incident\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\wamp64\\www\\I...')
+#1 C:\wamp64\www\Incident\public\index.php(448): Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 {main}
+
+[2026-05-27 11:17:33] POST /Incident/incidents/store
+Message: syntax error, unexpected variable "$existingByNumber", expecting "function"
+File: C:\wamp64\www\Incident\app\Controllers\IncidentController.php:47
+Trace:
+#0 C:\wamp64\www\Incident\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\wamp64\\www\\I...')
+#1 C:\wamp64\www\Incident\public\index.php(458): Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 {main}
+
+[2026-05-27 11:17:42] GET /Incident/incidents/11
+Message: syntax error, unexpected variable "$existingByNumber", expecting "function"
+File: C:\wamp64\www\Incident\app\Controllers\IncidentController.php:47
+Trace:
+#0 C:\wamp64\www\Incident\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\wamp64\\www\\I...')
+#1 C:\wamp64\www\Incident\public\index.php(465): Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 {main}
+
+[2026-05-27 11:17:45] GET /Incident/incidents/11
+Message: syntax error, unexpected variable "$existingByNumber", expecting "function"
+File: C:\wamp64\www\Incident\app\Controllers\IncidentController.php:47
+Trace:
+#0 C:\wamp64\www\Incident\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\wamp64\\www\\I...')
+#1 C:\wamp64\www\Incident\public\index.php(465): Composer\Autoload\ClassLoader->loadClass('App\\Controllers...')
+#2 {main}
+
+[2026-05-27 14:49:57] GET /Incident/analytics
+Message: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in where clause is ambiguous
+File: C:\wamp64\www\Incident\app\Models\AuditLog.php:50
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(50): PDO->prepare('SELECT a.*, u.n...')
+#1 C:\wamp64\www\Incident\app\Controllers\AnalyticsController.php(42): App\Models\AuditLog->getRecentActivity(15, 30)
+#2 C:\wamp64\www\Incident\public\index.php(599): App\Controllers\AnalyticsController->index()
+#3 {main}
+
+[2026-05-27 14:55:40] GET /Incident/analytics
+Message: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'created_at' in where clause is ambiguous
+File: C:\wamp64\www\Incident\app\Models\AuditLog.php:50
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(50): PDO->prepare('SELECT a.*, u.n...')
+#1 C:\wamp64\www\Incident\app\Controllers\AnalyticsController.php(42): App\Models\AuditLog->getRecentActivity(15, 30)
+#2 C:\wamp64\www\Incident\public\index.php(599): App\Controllers\AnalyticsController->index()
+#3 {main}
+
+[2026-05-27 15:08:20] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:08:50] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:09:23] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:09:57] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:10:29] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:11:03] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:11:36] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:12:09] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:12:42] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:13:15] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:13:48] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:14:18] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:14:48] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:15:21] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:15:55] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:16:25] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:16:58] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:17:31] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:18:01] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:18:35] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:19:08] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:19:41] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:20:11] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:20:45] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:21:18] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:21:51] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:22:24] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:22:57] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:23:30] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:24:03] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:24:36] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:25:09] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:25:43] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:26:16] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:26:49] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:27:19] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:27:49] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:28:22] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:28:55] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:29:28] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:30:01] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:30:34] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:31:05] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:31:38] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:32:08] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:32:41] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:33:14] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:33:47] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:34:21] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:34:54] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:35:27] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:36:00] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:36:33] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:37:03] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:37:36] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:38:09] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:38:42] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:39:16] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:39:49] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:40:22] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:40:55] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:41:28] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:42:01] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:42:34] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:43:04] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:43:37] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:44:11] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:44:44] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:45:17] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:45:50] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:46:23] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:46:56] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:47:29] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:48:00] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:48:33] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:49:04] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:49:37] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:50:08] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:50:41] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:51:14] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:51:45] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:52:18] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:52:51] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:53:24] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:53:57] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:54:30] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:55:03] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:55:36] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:56:10] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:56:43] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:57:16] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:57:49] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:58:22] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:58:55] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 15:59:28] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:00:01] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:00:34] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:01:08] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:01:41] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:02:14] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:02:47] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:03:20] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:03:50] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:04:23] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:04:53] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:05:26] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:05:59] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:06:32] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:07:03] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:07:34] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:08:07] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:08:40] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:09:11] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:09:44] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:10:17] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:10:50] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:11:20] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:11:53] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:12:26] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:13:00] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:13:33] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:14:06] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:14:39] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:15:09] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:15:42] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:16:15] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:16:48] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:17:22] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:17:55] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:18:28] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:19:01] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:19:34] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:20:07] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:20:37] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:21:10] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:21:41] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:22:13] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:22:47] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:23:17] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:23:50] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:24:23] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:24:53] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:25:26] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:26:00] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:26:32] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:27:06] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:27:39] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:28:12] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:28:45] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:29:18] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:29:51] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:30:24] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:30:57] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:31:31] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:32:03] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:32:37] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:33:07] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:33:47] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:34:10] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:34:44] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:35:14] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:35:47] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:36:17] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:36:50] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:37:21] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:37:54] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:38:24] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:38:57] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:39:27] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:40:00] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:40:30] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:41:03] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:41:36] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:42:09] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:42:39] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:43:12] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:43:42] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:44:16] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:44:46] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:45:19] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:45:50] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:46:23] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:46:53] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:47:24] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:47:54] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:48:27] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:49:00] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:49:33] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:50:06] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:50:41] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:51:01] GET /Incident/api/incidents/geojson
+Message: Call to undefined method App\Models\Incident::toGeoJSONFeature()
+File: C:\wamp64\www\Incident\app\Controllers\ApiController.php:20
+Trace:
+#0 C:\wamp64\www\Incident\public\index.php(520): App\Controllers\ApiController->incidentsGeojson()
+#1 {main}
+
+[2026-05-27 16:51:10] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:51:43] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:52:16] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:52:50] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-27 16:53:23] POST /Incident/api/incidents/save-draft
+Message: Call to undefined method App\Controllers\IncidentController::saveDraft()
+File: C:\wamp64\www\Incident\public\index.php:510
+Trace:
+#0 {main}
+
+[2026-05-28 07:45:11] POST /Incident/auth/login
+Message: Unable to connect to the database.
+File: C:\wamp64\www\Incident\config\DB.php:179
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(15): App\Config\DB::getPDO()
+#1 C:\wamp64\www\Incident\app\Services\AuditService.php(16): App\Models\AuditLog->__construct()
+#2 C:\wamp64\www\Incident\app\Controllers\AuthController.php(228): App\Services\AuditService->__construct()
+#3 C:\wamp64\www\Incident\public\index.php(429): App\Controllers\AuthController->loginPost()
+#4 {main}
+
+[2026-05-28 07:49:04] POST /Incident/auth/login
+Message: Unable to connect to the database.
+File: C:\wamp64\www\Incident\config\DB.php:179
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(15): App\Config\DB::getPDO()
+#1 C:\wamp64\www\Incident\app\Services\AuditService.php(16): App\Models\AuditLog->__construct()
+#2 C:\wamp64\www\Incident\app\Controllers\AuthController.php(228): App\Services\AuditService->__construct()
+#3 C:\wamp64\www\Incident\public\index.php(429): App\Controllers\AuthController->loginPost()
+#4 {main}
+
+[2026-05-28 07:55:34] POST /Incident/auth/login
+Message: Unable to connect to the database.
+File: C:\wamp64\www\Incident\config\DB.php:179
+Trace:
+#0 C:\wamp64\www\Incident\app\Models\AuditLog.php(15): App\Config\DB::getPDO()
+#1 C:\wamp64\www\Incident\app\Services\AuditService.php(16): App\Models\AuditLog->__construct()
+#2 C:\wamp64\www\Incident\app\Controllers\AuthController.php(228): App\Services\AuditService->__construct()
+#3 C:\wamp64\www\Incident\public\index.php(429): App\Controllers\AuthController->loginPost()
+#4 {main}
+

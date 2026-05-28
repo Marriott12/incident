@@ -1,0 +1,14 @@
+{
+    "name": "zambian/incident-system",
+    "description": "Zambian Military Internal Security Operations Incident Report System",
+    "require": {
+        "php": ">=8.0",
+        "dompdf/dompdf": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "App\\Config\\": "config/"
+        }
+    }
+}
